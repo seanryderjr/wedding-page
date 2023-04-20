@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 0;
+    background: rgb(242,166,243);
+background: radial-gradient(circle, rgba(242,166,243,1) 36%, rgba(215,226,143,1) 96%);
+}
+
+.main-nav {
+    background-color: #ebf3a6;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin: 0 20px;
+    flex-wrap: nowrap;
+
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #bb3baa;
+    font-size: 18px;
+    font-weight: 400;
+} 
+
+.main-nav ul li a:hover {
+    background-color: #dae2ca;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main-header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eaeee141;
+    border-radius: 5%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    
+
+}
+
+.main-header h1 {
+    font-size: 60px;
+    color: #f8f5f5;
+    margin: 0;
+    text-align: center;
+}
+
+.main-header p {
+    font-size: 20px;
+    color: #bb3baa;
+    margin: 0;
+    text-align: center;
+}
+
+.main-header img {
+    
+    height: 500px;
+    border-radius: 5%;
+    margin: 20px 0;
+
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 50px  auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eaeee141;
+    border-radius: 5%;
+}
+
+.main-container h2 {
+    font-size: 30px;
+    color: #faf9fa;
+    margin: 0;
+    text-align: center;
+}
+
+.main-container p {
+    font-size: 20px;
+    color: #bb3baa;
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    margin-top: 100px
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5%;
+    align-self: center;
+}
+
+.gallery-container img:hover {
+    transform: scale(2.5);
+    transition: 0.5s;
+}
+
+.event-container {
+
+}
+
+.event-content {
+    
+}
